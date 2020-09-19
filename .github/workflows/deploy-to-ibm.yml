@@ -60,7 +60,7 @@ jobs:
           - binary_buildpack
         EOF
     
-    - uses: citizen-of-planet-earth/cf-cli-action@v1
+    - uses: citizen-of-planet-earth/cf-cli-action@v2
       with:
         cf_api: https://api.us-south.cf.cloud.ibm.com
         cf_username: ${{ secrets.CF_USER_IBM }}
