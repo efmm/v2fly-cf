@@ -35,9 +35,7 @@ jobs:
               },
               "streamSettings": {
                 "network":"ws",
-                "wsSettings": {
-	 	 "path":"/l11"
-       				 }
+                "wsSettings": {"path":"/l11"}
               }
             }
           ],
